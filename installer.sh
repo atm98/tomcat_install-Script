@@ -9,7 +9,7 @@ wget http://www-eu.apache.org/dist/tomcat/tomcat-9/v9.0.24/bin/apache-tomcat-9.0
 echo "tomcat download Done"
 tar xf /tmp/apache-tomcat-9*.tar.gz -C /opt/tomcat
 echo "unzip Done"
-sudo ln -s /opt/tomcat/apache-tomcat-9.0.14 /opt/tomcat/latest
+sudo ln -s /opt/tomcat/apache-tomcat-9.0.24 /opt/tomcat/latest
 echo "link established"
 sudo chown -RH tomcat: /opt/tomcat/latest
 echo "owner change Done"

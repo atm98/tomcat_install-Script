@@ -18,7 +18,8 @@ echo "file made executable Done"
 cat data.txt > /etc/systemd/system/tomcat.service
 systemctl daemon-reload
 systemctl start tomcat
-systemctl status tomcat
 systemctl enable 
 ufw enable
 ufw allow 8080/tcp
+ufw allow ssh
+systemctl status tomcat
